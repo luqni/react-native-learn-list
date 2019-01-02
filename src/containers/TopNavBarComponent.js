@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {View, Text, StyleSheet} from 'react-native';
-import LingkaranComponent from "./LingkaranComponent";
+import LogoComponent from "./LogoComponent";
 
 export  default class TopNavBarComponent extends Component{
     constructor(props){
@@ -10,7 +10,7 @@ export  default class TopNavBarComponent extends Component{
     render() {
         return(
             <View style={styles.topNavBarComponent}>
-                <LingkaranComponent/>
+                <LogoComponent/>
             </View>
         );
     }

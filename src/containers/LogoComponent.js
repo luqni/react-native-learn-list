@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {View, Text, StyleSheet} from 'react-native';
 
-export  default class LingkaranComponent extends Component{
+export  default class LogoComponent extends Component{
     constructor(props){
         super(props)
 
@@ -23,9 +23,7 @@ const styles = StyleSheet.create({
         height:100,
 
 
-        backgroundColor:'#ff6a00',
-        elevation: 20,
-        shadowColor: '#000000'
+        backgroundColor:'#fbfbff',
 
     },
 });
